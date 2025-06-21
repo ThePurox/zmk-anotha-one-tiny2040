@@ -15,6 +15,7 @@
 #define TIMEOUT_COMBO_5 175
 
 #define TIMEOUT_LAYER_HOLD 200
+#define TIMEOUT_STICKY_LEADER_KEY 5000
 
 #define KEY_SPACE 0
 #define KEY_O 1
@@ -29,6 +30,10 @@
 #define LAYER_ID_SYM  1
 #define LAYER_ID_NAV  2
 #define LAYER_ID_MWS  3
+
+&sk {
+	release-after-ms = <TIMEOUT_STICKY_LEADER_KEY>;
+};
 
 / {
     combos {
