@@ -1,0 +1,8 @@
+file_format: "1"
+id: anotha_one
+name: AnothaOne
+type: shield
+url: https://github.com/StrawberryTurtle/AnothaOne/tree/main
+requires: [xiao_d]
+features:
+  - keys
