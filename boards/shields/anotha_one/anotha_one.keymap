@@ -167,11 +167,11 @@
         combo_shift   { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_SPACE KEY_O KEY_N>; bindings = <&sk LSHFT>; };
         combo_gui     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_SPACE KEY_O KEY_A>; bindings = <&sk LGUI>; };
         // Modifiers: 2nd row
-        combo_alt     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_SPACE KEY_O KEY_N>; bindings = <&sk LALT>; };
-        combo_ctrl    { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_SPACE KEY_O KEY_A>; bindings = <&sk LCTRL>; };
+        combo_alt     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_SPACE KEY_O KEY_H>; bindings = <&sk LALT>; };
+        combo_ctrl    { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_3>; key-positions = <KEY_SPACE KEY_O KEY_E>; bindings = <&sk LCTRL>; };
         // Modifiers: 3rd row
-        combo_insert  { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_N KEY_H>; bindings = <&sk LALT>; };
-        combo_tab     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_SPACE KEY_A>; bindings = <&sk LCTRL>; };
+        combo_insert  { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_N KEY_H>; bindings = <&kp INSERT>; };
+        combo_tab     { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_SPACE KEY_A>; bindings = <&kp TAB>; };
         // Modifiers: 4th row
         combo_escape  { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_A KEY_E>; bindings = <&kp ESCAPE>; };
         combo_enter   { layers = <LAYER_ID_BASE>; timeout-ms = <TIMEOUT_COMBO_2>; key-positions = <KEY_SPACE KEY_E>; bindings = <&kp ENTER>; };
