@@ -180,13 +180,27 @@
     };
 };
 
+// Layer on hold, key on press with quick-tap possibility
+/ {
+    behaviors {
+        layer_kp_qt: layer_kp_qt {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping_term_ms = <TIMEOUT_LAYER_HOLD>;
+            quick-tap-ms = <QUICK_TAP_TIME>;
+            flavor = "tap-preferred";
+            bindings = <&mo>, <&kp>;
+        };
+    };
+};
+
+// Layer on hold, key on press
 / {
     behaviors {
         layer_kp: layer_kp {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping_term_ms = <TIMEOUT_LAYER_HOLD>;
-            quick-tap-ms = <QUICK_TAP_TIME>;
             flavor = "tap-preferred";
             bindings = <&mo>, <&kp>;
         };
@@ -199,10 +213,10 @@
 
         base {
             bindings = <
-                &layer_kp LAYER_ID_MWS SPACE &kp O
+                &layer_kp_qt LAYER_ID_MWS SPACE &kp O
                 &kp N                        &kp A
                 &kp H                        &kp E
-                &layer_kp LAYER_ID_NAV BSPC  &layer_kp LAYER_ID_SYM T
+                &layer_kp_qt LAYER_ID_NAV BSPC  &layer_kp LAYER_ID_SYM T
             >;
         };
 
