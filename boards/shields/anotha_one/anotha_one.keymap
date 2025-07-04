@@ -214,8 +214,8 @@
         base {
             bindings = <
                 &layer_kp_qt LAYER_ID_MWS SPACE &kp O
-                &kp N                        &kp A
-                &kp H                        &kp E
+                &kp N                           &kp A
+                &kp H                           &kp E
                 &layer_kp_qt LAYER_ID_NAV BSPC  &layer_kp LAYER_ID_SYM T
             >;
         };
