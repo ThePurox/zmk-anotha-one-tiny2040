@@ -231,7 +231,7 @@
 
         navigation {
             bindings = <
-                &kp SPACE        &kp SEMI
+                &kp SPACE        &kp DEL
                 &kp UP           &kp LEFT
                 &kp DOWN         &kp RIGHT
                 &mo LAYER_ID_NAV &none
