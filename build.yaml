@@ -19,9 +19,9 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_ble
-    shield: anotha_one
-  - board: seeeduino_xiao_rp2040
-    shield: anotha_one
-  - board: seeeduino_xiao
+  # - board: seeeduino_xiao_ble
+    # shield: anotha_one
+  # - board: seeeduino_xiao_rp2040
+    # shield: anotha_one
+  - board: rpi_pico
     shield: anotha_one
